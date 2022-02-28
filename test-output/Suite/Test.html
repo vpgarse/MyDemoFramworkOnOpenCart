@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 25 15:25:25 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>267 seconds (267334 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TestClasses.RegisterTestCase.Registration()'><b>Registration</b><br>Test class: com.TestClasses.RegisterTestCase<br/>
+<a href="#Output-956365425" onClick='toggleBox("Output-956365425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-956365425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-956365425">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================Registration Test Case Started===============================================<br/>
+=================================Registration Test Case Ended===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.TestClasses.RegisterTestCase@8b87145</td></tr>
+<tr>
+<td title='com.TestClasses.OrderTestCase.orderEndToEndProcess()'><b>orderEndToEndProcess</b><br>Test class: com.TestClasses.OrderTestCase<br/>
+<a href="#Output-347572726" onClick='toggleBox("Output-347572726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-347572726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-347572726">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================Order End To End Process Test Case Started===============================================<br/>
+=================================Order End To End Process Test Case Ended===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>51</td>
+<td>com.TestClasses.OrderTestCase@382db087</td></tr>
+<tr>
+<td title='com.TestClasses.InvalidLogineTestCase.InvalidLoginTestCase()'><b>InvalidLoginTestCase</b><br>Test class: com.TestClasses.InvalidLogineTestCase<br/>
+<a href="#Output-429269396" onClick='toggleBox("Output-429269396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429269396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429269396">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================Invalid LoginTest Case Started===============================================<br/>
+=================================Invalid LoginTest Case Ended===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.TestClasses.InvalidLogineTestCase@b9afc07</td></tr>
+<tr>
+<td title='com.TestClasses.StartToEndProcessTestcase.endToendProcess()'><b>endToendProcess</b><br>Test class: com.TestClasses.StartToEndProcessTestcase<br/>
+<a href="#Output-837246227" onClick='toggleBox("Output-837246227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837246227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837246227">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================endToendProcess Test Case Started===============================================<br/>
+Login Page Process Completed <br/>
+Search Result Page Process Completed <br/>
+Order Page Process Completed <br/>
+=================================endToendProcess Test Case Started===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.TestClasses.StartToEndProcessTestcase@24a35978</td></tr>
+<tr>
+<td title='com.TestClasses.SearchProductTestCase.SearchProcess()'><b>SearchProcess</b><br>Test class: com.TestClasses.SearchProductTestCase<br/>
+<a href="#Output-1066949254" onClick='toggleBox("Output-1066949254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1066949254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1066949254">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================SearchProcess Test Case Started===============================================<br/>
+=================================SearchProcess Test Case Ended===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.TestClasses.SearchProductTestCase@6483f5ae</td></tr>
+<tr>
+<td title='com.TestClasses.LoginTestCase.ValidLoginTestCase()'><b>ValidLoginTestCase</b><br>Test class: com.TestClasses.LoginTestCase<br/>
+<a href="#Output-890488908" onClick='toggleBox("Output-890488908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890488908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890488908">
+The demo.opencart. test cases will execute now onwards<br/>
+=================================Valid LoginTest Case Started===============================================<br/>
+=================================Valid LoginTest Case Ended===============================================<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.TestClasses.LoginTestCase@73d4cc9e</td></tr>
+</table><p>
+</body>
+</html>

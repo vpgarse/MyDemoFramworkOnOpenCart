@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[The test has been started]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================endToendProcess Test Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Process Completed ]]>
+    </line>
+    <line>
+      <![CDATA[Search Result Page Process Completed ]]>
+    </line>
+    <line>
+      <![CDATA[Order Page Process Completed ]]>
+    </line>
+    <line>
+      <![CDATA[=================================endToendProcess Test Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================Registration Test Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================Registration Test Case Ended===============================================]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================SearchProcess Test Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================SearchProcess Test Case Ended===============================================]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================Invalid LoginTest Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================Invalid LoginTest Case Ended===============================================]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================Order End To End Process Test Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================Order End To End Process Test Case Ended===============================================]]>
+    </line>
+    <line>
+      <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[=================================Valid LoginTest Case Started===============================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================Valid LoginTest Case Ended===============================================]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="267334" started-at="2022-01-25T15:25:25 IST" finished-at="2022-01-25T15:29:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="267334" started-at="2022-01-25T15:25:25 IST" finished-at="2022-01-25T15:29:52 IST">
+      <class name="com.TestClasses.StartToEndProcessTestcase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.StartToEndProcessTestcase@24a35978]" name="setUp" is-config="true" duration-ms="19926" started-at="2022-01-25T15:25:25 IST" finished-at="2022-01-25T15:25:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="endToendProcess()[pri:0, instance:com.TestClasses.StartToEndProcessTestcase@24a35978]" name="endToendProcess" duration-ms="39183" started-at="2022-01-25T15:25:45 IST" finished-at="2022-01-25T15:26:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================endToendProcess Test Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[Login Page Process Completed ]]>
+            </line>
+            <line>
+              <![CDATA[Search Result Page Process Completed ]]>
+            </line>
+            <line>
+              <![CDATA[Order Page Process Completed ]]>
+            </line>
+            <line>
+              <![CDATA[=================================endToendProcess Test Case Started===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endToendProcess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.StartToEndProcessTestcase@24a35978]" name="closeBrowser" is-config="true" duration-ms="961" started-at="2022-01-25T15:26:24 IST" finished-at="2022-01-25T15:26:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.StartToEndProcessTestcase -->
+      <class name="com.TestClasses.RegisterTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.RegisterTestCase@8b87145]" name="setUp" is-config="true" duration-ms="23232" started-at="2022-01-25T15:26:25 IST" finished-at="2022-01-25T15:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Registration()[pri:0, instance:com.TestClasses.RegisterTestCase@8b87145]" name="Registration" duration-ms="10327" started-at="2022-01-25T15:26:48 IST" finished-at="2022-01-25T15:26:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================Registration Test Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================Registration Test Case Ended===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.RegisterTestCase@8b87145]" name="closeBrowser" is-config="true" duration-ms="952" started-at="2022-01-25T15:26:59 IST" finished-at="2022-01-25T15:27:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.RegisterTestCase -->
+      <class name="com.TestClasses.SearchProductTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.SearchProductTestCase@6483f5ae]" name="setUp" is-config="true" duration-ms="24196" started-at="2022-01-25T15:27:00 IST" finished-at="2022-01-25T15:27:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchProcess()[pri:0, instance:com.TestClasses.SearchProductTestCase@6483f5ae]" name="SearchProcess" duration-ms="8285" started-at="2022-01-25T15:27:24 IST" finished-at="2022-01-25T15:27:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================SearchProcess Test Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================SearchProcess Test Case Ended===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProcess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.SearchProductTestCase@6483f5ae]" name="closeBrowser" is-config="true" duration-ms="981" started-at="2022-01-25T15:27:32 IST" finished-at="2022-01-25T15:27:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.SearchProductTestCase -->
+      <class name="com.TestClasses.InvalidLogineTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.InvalidLogineTestCase@b9afc07]" name="setUp" is-config="true" duration-ms="25364" started-at="2022-01-25T15:27:33 IST" finished-at="2022-01-25T15:27:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidLoginTestCase()[pri:0, instance:com.TestClasses.InvalidLogineTestCase@b9afc07]" name="InvalidLoginTestCase" duration-ms="6760" started-at="2022-01-25T15:27:58 IST" finished-at="2022-01-25T15:28:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================Invalid LoginTest Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================Invalid LoginTest Case Ended===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.InvalidLogineTestCase@b9afc07]" name="closeBrowser" is-config="true" duration-ms="817" started-at="2022-01-25T15:28:05 IST" finished-at="2022-01-25T15:28:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.InvalidLogineTestCase -->
+      <class name="com.TestClasses.OrderTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.OrderTestCase@382db087]" name="setUp" is-config="true" duration-ms="28224" started-at="2022-01-25T15:28:06 IST" finished-at="2022-01-25T15:28:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orderEndToEndProcess()[pri:0, instance:com.TestClasses.OrderTestCase@382db087]" name="orderEndToEndProcess" duration-ms="51698" started-at="2022-01-25T15:28:34 IST" finished-at="2022-01-25T15:29:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================Order End To End Process Test Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================Order End To End Process Test Case Ended===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderEndToEndProcess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.OrderTestCase@382db087]" name="closeBrowser" is-config="true" duration-ms="926" started-at="2022-01-25T15:29:26 IST" finished-at="2022-01-25T15:29:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.OrderTestCase -->
+      <class name="com.TestClasses.LoginTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestClasses.LoginTestCase@73d4cc9e]" name="setUp" is-config="true" duration-ms="19424" started-at="2022-01-25T15:29:27 IST" finished-at="2022-01-25T15:29:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidLoginTestCase()[pri:0, instance:com.TestClasses.LoginTestCase@73d4cc9e]" name="ValidLoginTestCase" duration-ms="5144" started-at="2022-01-25T15:29:46 IST" finished-at="2022-01-25T15:29:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The demo.opencart. test cases will execute now onwards]]>
+            </line>
+            <line>
+              <![CDATA[=================================Valid LoginTest Case Started===============================================]]>
+            </line>
+            <line>
+              <![CDATA[=================================Valid LoginTest Case Ended===============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestClasses.LoginTestCase@73d4cc9e]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2022-01-25T15:29:51 IST" finished-at="2022-01-25T15:29:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestClasses.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
